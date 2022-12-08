@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE  abel.o
+gcc -c $CFILE
