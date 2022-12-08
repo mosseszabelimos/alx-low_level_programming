@@ -1,10 +1,9 @@
 #include<stdio.h>
 
 /**
- * This is realy fun
- * i'm enjoying 
- * ok
- */
+ *main -Entry point
+ *Return: always 0(Success)
+*/
 
 int main(void)
 {
