@@ -23,5 +23,6 @@ int main(void)
 			putchar(ch2);
 			ch2++;
 		}
+	putchar('\n');
 	return (0);
 }
