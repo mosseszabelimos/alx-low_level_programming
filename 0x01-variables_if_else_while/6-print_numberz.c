@@ -8,6 +8,7 @@
 int main(void)
 {
 	int num;
+	
 	while
 		(num < 10) {
 			putchar(num + '0');
