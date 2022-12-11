@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * * main - Entry point
- * * Return Always 0 (Success)]
- * */
+ * main - Entry point
+ * Return Always 0 (Success)]
+ */
 
-int main (void)
+int main(void)
 {
 	int num1;
 	int num2;
@@ -14,13 +14,13 @@ int main (void)
 		for (num2 = 0; num2 < 100; num2++)
 		{
 			if (num1 < num2)
-																		{
-																			putchar(( num1 / 10) +48);
-				putchar((num1 % 10) +48);
+			{
+				putchar((num1 / 10) + 48);
+				putchar((num1 % 10) + 48);
 				putchar(' ');
-				putchar(( num2 / 10) +48);
-				putchar((num2 % 10) +48);
-				if (num1 != 98 || num2 !=99)
+				putchar((num2 / 10) + 48);
+				putchar((num2 % 10) + 48);
+				if (num1 != 98 || num2 != 99)
 				{
 					putchar(',');
 					putchar(' ');
