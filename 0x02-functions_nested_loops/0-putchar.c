@@ -2,7 +2,7 @@
 /**
  * Main - print _putchar
  * is written by abel
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
