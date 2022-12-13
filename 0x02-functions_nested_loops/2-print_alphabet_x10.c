@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * this function print_alphabet_x10 : Entry Point
+ * print_alphabet_x10 : prints a to  10 times
  * prints a to z 10 times
  */
 
