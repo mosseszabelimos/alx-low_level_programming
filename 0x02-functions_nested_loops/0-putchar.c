@@ -3,12 +3,11 @@
 /**
  * Main - print _putchar
  * is written by abel
- * Return: 0
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-//main function begins
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
