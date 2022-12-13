@@ -2,8 +2,9 @@
 /**
  * print_sign - prints the sign of a number
  * @n: is the number to be determined
- * Returns: 1 if +, 
- * Returns: 0 if zero, 
+ * Returns: 1 if the number is greather than zero 
+ * 0 if zero
+ * -1 and prints if the number is less than zero
  * Returns: -1 if negative;
  */
 
