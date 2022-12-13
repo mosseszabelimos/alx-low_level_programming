@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_alphabet_x10 : Entry Point
- * Return value if there is
+ * 
+ * prints a to z 10 times
  */
 
 void print_alphabet_x10(void)
