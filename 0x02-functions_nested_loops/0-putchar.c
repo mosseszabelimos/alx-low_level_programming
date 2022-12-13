@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Main - print _putchar
- * is written by abel
+ * main - Entry point
+ * 
  * Return: Always 0 (success)
  */
 int main(void)
