@@ -6,9 +6,10 @@
 
 void jack_bauer(void)
 {
-	int x,y;
+	int x, y;
 
-	x =0;
+	x = 0;
+
 	while (x < 24)
 	{
 		y =0;
@@ -16,10 +17,10 @@ void jack_bauer(void)
 		while (y < 60)
 		{
 			_putchar((x/10) +'0');
-			_putchar((x/10) +'0');
+			_putchar((x%10) +'0');
 			_putchar(':');
 			_putchar((y/10) +'0');
-			_putchar((y/10) +'0');
+			_putchar((y%10) +'0');
 			_putchar('\n');
 			y++;
 		}
