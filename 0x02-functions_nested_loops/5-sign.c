@@ -5,7 +5,7 @@
  * Returns: 1 if +, 0 if zero, -1 if negative;
  */
 
-int print_sign(int)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -14,7 +14,7 @@ int print_sign(int)
 	} 
 	else if ( n == 0)
 	{
-		_putchar('0')
+		_putchar('0');
 		return (0);
 	}
 	else if (n < 0)
