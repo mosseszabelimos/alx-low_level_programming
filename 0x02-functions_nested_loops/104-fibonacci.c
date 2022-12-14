@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main- the first 100 fibonachi numbers
  *
  * Return: success
@@ -21,7 +21,7 @@ int main(void)
 	y = 1000000000;
 
 	printf("%lu", x1);
-	for(x = 1; x < 91; x++)
+	for (x = 1; x < 91; x++)
 	{
 		printf(", %lu", x2);
 		x2 += x1;
