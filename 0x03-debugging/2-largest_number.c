@@ -18,15 +18,15 @@ largest = a;
 }
 else if (b > c && b > a)
 {
-largest = b;
+largest = c;
 }
 else if (c > b)
 {
-largest = c;
+largest = b;
 }
 else
 {
-largest = b;
+largest = c;
 }
  
 return (largest);
