@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main- the first 100 fibonachi numbers
+/** 
+ * main- the first 100 fibonachi numbers
  *
  * Return: success
  */
