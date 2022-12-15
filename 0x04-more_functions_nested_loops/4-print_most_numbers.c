@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_mosit_numbers - print from 0 to 9
+ * print_most_numbers - print from 0 to 9
  * Return: 0
  */
 
