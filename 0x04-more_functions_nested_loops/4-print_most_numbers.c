@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print from 0 to 9
- * Return: 0;
+ * print_mosit_numbers - print from 0 to 9
+ *
+ * Return: 0
  */
 
 void print_most_numbers(void)
