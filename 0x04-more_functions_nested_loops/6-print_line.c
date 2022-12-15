@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print line - print stright line
+ * print_line - print stright line
  * @n: prefix
  * Return: nothing
  */
