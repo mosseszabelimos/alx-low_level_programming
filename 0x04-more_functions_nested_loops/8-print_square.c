@@ -2,6 +2,7 @@
 
 /**
  * print_square - prints square
+ * @size: the number of square
  * Return: 0
  */
 
