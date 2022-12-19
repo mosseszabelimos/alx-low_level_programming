@@ -3,7 +3,7 @@
 /**
  * _atoi - function that convert a string to an integer.
  * @ch: entry
- * Retrun: value
+ * Retrun: value 1
  */
 
 int _atoi(char *ch)
@@ -26,7 +26,7 @@ int _atoi(char *ch)
 		do {
 			y = y * 10 + (*z - '0');
 			z++;
-		}while (*z >= '0' && *z <= '9');
+		} while (*z >= '0' && *z <= '9');
 	}
 	return (y * x);
 }
