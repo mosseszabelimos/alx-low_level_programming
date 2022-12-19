@@ -7,7 +7,7 @@
  * Return: return value
  */
 
-char *_strcpy(*char gate1, char gate2)
+char *_strcpy(char *gate1, char *gate2)
 {
 	char *s = gate1;
 
