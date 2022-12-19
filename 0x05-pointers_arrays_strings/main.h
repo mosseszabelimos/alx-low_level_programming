@@ -4,6 +4,6 @@
 int _putchar(char c);
 void preset_to_98(int *n);
 void swap(int *x, int *y);
-int _strlen(char *x);
+int _strlen(char *g);
 
 #endif
