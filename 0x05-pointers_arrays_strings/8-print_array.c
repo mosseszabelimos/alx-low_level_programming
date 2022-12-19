@@ -11,12 +11,12 @@ void print_array(int *x, int num)
 {
 	int y;
 
-	for (y = 0; y < num; i++)
+	for (y = 0; y < num; y++)
 	{
 		printf("%d", x[y]);
 		if (y != num - 1)
 		{
-			printf(" ");
+			printf(",");
 			printf(" ");
 		}
 	}
