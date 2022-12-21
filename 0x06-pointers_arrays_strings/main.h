@@ -3,4 +3,5 @@
 
 char *_strcat(char *ch1, char *ch2);
 char *_strncat(char *ch1, char *ch2, int num);
+char *_strncpy(char *ch1, char *ch2, int num);
 #endif
