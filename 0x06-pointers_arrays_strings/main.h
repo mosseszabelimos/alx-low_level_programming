@@ -8,4 +8,5 @@ int _strcmp(char *ch1, char *ch2);
 void reverse_array(int *num1,int num2);
 char *string_toupper(char *num);
 char *cap_string(char *);
+char *leet(char *);
 #endif
