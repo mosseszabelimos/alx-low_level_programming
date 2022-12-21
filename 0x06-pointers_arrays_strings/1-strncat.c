@@ -8,7 +8,7 @@
  * Return: value
  */
 
-char *_stncat(char *ch1, char *ch2, int num)
+char *_strncat(char *ch1, char *ch2, int num)
 {
 	int x;
 	int y;
