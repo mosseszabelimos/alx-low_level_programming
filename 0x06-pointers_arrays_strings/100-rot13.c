@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * rot13 - ...
- * @s: ...
- * Return: ...
+ * rot13 - to encode
+ * @s: Entry
+ * Return: value
  */
 
 char *rot13(char *s)
@@ -25,5 +25,5 @@ char *rot13(char *s)
 		}
 		a++;
 	}
-		return (s);
+	return (s);
 }
