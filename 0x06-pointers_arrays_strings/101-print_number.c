@@ -6,17 +6,20 @@
  * Return: value
  */
 
-void print_number(int x)
+void print_number(int n)
 {
-	unsigned int num1 = x;
+	unsigned int x;
 
-	if (x < 0)
+	if (n < 0)
 	{
 		_putchar('-');
-		num1=-num1;
+		n *= -1;
 	}
-	if ((num1 / 10) > 0)
-		print_number(num1 / 10);
+	
+	x = n;
+	
+	if (x / 10)
+		print_number(x / 10);
 
-	_putchar((num1 % 10) + '0');
+	_putchar(x % 10 + '0');
 }
