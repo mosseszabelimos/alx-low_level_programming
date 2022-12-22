@@ -9,17 +9,10 @@
 
 int _strcmp(char *ch1, char *ch2)
 {
-	int x; 
-	
-	x = 0;
-
-	while (ch1[x] != '\0' && ch2[x] != '\0')
+	while (*ch1 && *ch2 && *ch1 == *ch2)
 	{
-		if (ch1[x] != ch2[x])
-		{
-			return (ch1[x] - ch2[x]);
-		}
-		x++;
+		ch1++;
+		ch2++;
 	}
-	return (0);
+	return (*ch1 - *ch2);
 }
