@@ -10,16 +10,14 @@
 
 void print_diagsums(int *a, int size)
 {
-	int num1, num2, x;
-	
-	num1 = 0;
-	num2 = 0;
+	int x, num1 = 0, num2 = 0;
 
 	for (x = 0; x < size; x++)
 	{
 		num1 += a[x];
 		a += size;
 	}
+
 	a -= size;
 	
 	for (x = 0; x < size; x++)
