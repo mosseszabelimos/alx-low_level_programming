@@ -11,7 +11,6 @@
 void print_diagsums(int *a, int size)
 {
 	int num1, num2, x;
-	
 	num1 = 0;
 	num2 = 0;
 
@@ -23,6 +22,6 @@ void print_diagsums(int *a, int size)
 	{
 		num2 += a[x * size + (size - x - 1)];
 	}
-	printf("%d,%d\n", num1,num2);
+	printf("%d, %d\n", num1,num2);
 }
 
