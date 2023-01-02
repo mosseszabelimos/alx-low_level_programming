@@ -11,6 +11,7 @@
 char *_memcpy(char *x, char *y, unsigned int num)
 {
 	int i;
+
 	int j = num;
 
 	for (i = 0; i < j; i++)
