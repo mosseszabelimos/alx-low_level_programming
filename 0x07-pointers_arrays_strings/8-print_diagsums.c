@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - prints two diagonals of square matrix of integers
- * @a: first entry
- * @size: second entry
- * Return: value 1 or 0
+ * print_diagsums - prints the sum of two diagonals
+ * @a: the numbers
+ * @size: the size
+ * Return: 1 or 0
  */
 
 void print_diagsums(int *a, int size)
@@ -18,13 +18,12 @@ void print_diagsums(int *a, int size)
 		a += size;
 	}
 
-	a -= size;
-	
+	a -=size;
+
 	for (x = 0; x < size; x++)
 	{
 		num2 += a[x];
 		a -= size;
 	}
-	printf("%d, %d\n", num1,num2);
+	printf("%d, %d\n", num1, num2);
 }
-
