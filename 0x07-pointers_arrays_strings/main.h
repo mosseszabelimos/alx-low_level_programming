@@ -1,7 +1,7 @@
 #ifndef main_h
 #define main_h
 
-
+int _putchar(char c);
 char *_memset(char *x, char ch, unsigned int n);
 char *_memcpy(char *x, char *y, unsigned int num);
 char *_strchr(char *ch1, char ch2);
