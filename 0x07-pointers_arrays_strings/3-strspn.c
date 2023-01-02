@@ -21,7 +21,7 @@ unsigned int _strspn(char *ch1, char *ch2)
 				num++;
 				break;
 			}
-			else if (ch2[i + 1] =='\0')
+			else if (ch2[i + 1] == '\0')
 				return (num);
 		}
 		ch1++;
