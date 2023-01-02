@@ -20,5 +20,5 @@ char *_memcpy(char *x, char *y, unsigned int num)
 		num--;
 	}
 	return (x);
-}	
+}
 
