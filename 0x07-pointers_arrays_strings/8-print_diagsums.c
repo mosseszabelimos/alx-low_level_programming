@@ -17,11 +17,15 @@ void print_diagsums(int *a, int size)
 
 	for (x = 0; x < size; x++)
 	{
-		num1 = num1 + a[x * size + x];
+		num1 += num1 + a[x];
+		a += size;
 	}
-	for (x = size - 1; x >= 0; x--)
+	a -= size;
+	
+	for (x = 0; x < size; x++)
 	{
-		num2 += a[x * size + (size - x - 1)];
+		num2 += a[x];
+		a -= size;
 	}
 	printf("%d, %d\n", num1, num2);
 }
