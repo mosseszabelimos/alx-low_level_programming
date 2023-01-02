@@ -4,7 +4,7 @@
  * print_diagsums - prints two diagonals of square matrix of integers
  * @a: first entry
  * @size: second entry
- * Retrun: value 1 or 0
+ * Return: value 1 or 0
  */
 
 void print_diagsums(int *a, int size)
