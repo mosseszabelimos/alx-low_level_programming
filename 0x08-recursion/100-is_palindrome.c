@@ -10,7 +10,7 @@ int is_palindrome(char *c)
 {
 	if (*c == 0)
 		return (1);
-	return (chk_pal(c,0,_strlen_recursion(c)));
+	return (chk_pal(c, 0, _strlen_recursion(c)));
 }
 
 /**
@@ -29,4 +29,3 @@ int chk_pal(char *st, int x, int l)
 		return (1);
 	return (chk_pal(st, x + 1, l - 1));
 }
-			
