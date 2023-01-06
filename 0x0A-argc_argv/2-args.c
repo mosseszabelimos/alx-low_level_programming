@@ -4,8 +4,7 @@
 /**
  * main - print the name of the program
  * @argc: argument 1
- * @rgcv: argument 2
- *
+ * @argv: argument 2
  * Return: 0 and 1
  */
 
