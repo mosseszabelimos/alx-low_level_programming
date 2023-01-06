@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	int ar[] = {25, 10, 5, 2, 1};
 	x = 0;
-	tot =0;
+	tot = 0;
        	y = 0;
 	z = 0;
 	
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 		{
 			z = (tot /ar[x]);
 			y += z;
-			tot = ar[x] * z;
+			tot -= ar[x] * z;
 		}
 		x++;
 	}
