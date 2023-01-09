@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates an array of chars and initalizes 
+ * create_array - creates an array of chars and initalizes
  * @size: - first Entry
  * @c: -Second Entry
- * Retunr: value 0 or 1
+ * Return: value 0 or 1
  */
 
 char *create_array(unsigned int size, char c)
@@ -27,7 +27,7 @@ char *create_array(unsigned int size, char c)
 	else
 	{
 		x = 0;
-		
+
 		while (x < size)
 		{
 			*(mem + x) = c;
