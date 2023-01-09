@@ -24,15 +24,15 @@ char *str_concat(char *s1, char *s2)
 		x++;
 	while (s2[y] != '\0')
 		y++;
-	ch = malloc(sizeof(char) * (x + cy + 1));
+	ch = malloc(sizeof(char) * (x + y + 1));
 
 	if (ch == NULL)
 		return (NULL);
-	x = cy = 0;
+	x = y = 0;
 
 	while (s1[x] != '\0')
 	{
-		ch[i] = s1[i];
+		ch[x] = s1[x];
 		x++;
 	}
 	while (s2[y] != '\0')
@@ -41,5 +41,5 @@ char *str_concat(char *s1, char *s2)
 		x++, y++;
 	}
 	ch[x] = '\0';
-	return (xh);
+	return (ch);
 }
