@@ -7,7 +7,7 @@
  * Retunr: value 0 or 1
  */
 
-char create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char mem;
 	unsigned int x;
