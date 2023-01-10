@@ -10,4 +10,31 @@
  */
 int **alloc_grid(int width, int height)
 {
+	int **mo;
+	int i, j;
 
+	if (width <= 0 || height <= 0)
+		return (NULL);
+	mo = malloc(sizeof(int *) * height);
+
+	if (mo == NULL)
+		return (NULL);
+	for (i = 0; i < height; i++)
+	{
+		mo[x] = malloc(sizeof(int) * width);
+
+		if (mo[i] == NULL)
+		{
+			for (; i >= 0; i--)
+				free(mee[i]);
+			free(mo);
+			return (NULL);
+		}
+	}
+	for (i = 0; i < height; i++)
+	{
+		for (j = 0; j < width; j++)
+			mee[i][j] = 0;
+	}
+	return (mo);
+}
