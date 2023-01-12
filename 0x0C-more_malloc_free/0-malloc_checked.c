@@ -12,7 +12,9 @@ void *malloc_checked(unsigned int b)
 	loop = malloc(b);
 
 	if (loop == NULL)
-		exit(98);		
+	{
+		exit(98);
+	}
 	return (loop);		
 }
 
