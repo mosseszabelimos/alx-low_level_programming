@@ -22,10 +22,10 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		exit(2);
-        }
-	ar = (char *)main;
-
-        for (x = 0; x < bytes; x++)
+	}
+	ar = (char *)main
+	
+	for (x = 0; x < bytes; x++)
 	{
 		if (x == bytes - 1)
 		{
@@ -34,5 +34,5 @@ int main(int argc, char *argv[])
 		}
 		printf("%02hhx ", ar[x]);
 	}
-        return (0);
+	return (0);
 }
