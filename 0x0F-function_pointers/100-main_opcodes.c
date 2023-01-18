@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	ar = (char *)main
+	ar = (char *)main;
 	
 	for (x = 0; x < bytes; x++)
 	{
