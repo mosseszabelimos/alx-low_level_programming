@@ -8,6 +8,7 @@
  * @str: string
  * @len: length
  * @next: pointer
+ * Description: singly linked list
  */
 
 typedef struct list_s
