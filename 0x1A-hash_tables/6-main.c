@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\#include <stdio.h>
+#include <stdio.h>
 #include "hash_tables.h"
 
 /**

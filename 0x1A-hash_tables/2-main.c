@@ -1,5 +1,5 @@
 #include <stdlib.h>
-P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\P0+r\#include <string.h>
+#include <string.h>
 #include <stdio.h>
 #include "hash_tables.h"
 
