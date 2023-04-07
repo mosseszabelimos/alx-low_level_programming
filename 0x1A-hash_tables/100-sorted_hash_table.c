@@ -245,6 +245,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 /**
  * shash_table_print - prints key/value pairs in sorted hash table order.
  * @ht: the sorted hash table.
+ * Return: 0
  */
 void shash_table_print(const shash_table_t *ht)
 {
@@ -268,6 +269,7 @@ void shash_table_print(const shash_table_t *ht)
 /**
  * shash_table_print_rev - prints sorted key/value pairs in reverse.
  * @ht: the sorted hash table.
+ * Return: 0
  */
 void shash_table_print_rev(const shash_table_t *ht)
 {
@@ -291,6 +293,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 /**
  * shash_table_delete - deletes a sorted hash table
  * @ht: the sorted hash table.
+ * Return : 0
  */
 void shash_table_delete(shash_table_t *ht)
 {
